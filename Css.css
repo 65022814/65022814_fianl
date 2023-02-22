@@ -1,0 +1,17 @@
+.backg-round {
+   background-color: aquamarine;
+   width: 40%;
+   height: 40%;
+   position: fixed;  
+   top: 20%;  
+   left: 50%;  
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    position:fixed;
+    bottom:100px;
+}

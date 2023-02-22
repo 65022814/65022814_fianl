@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example JavaScript DOM</title>
+    <link rel="stylesheet" href="Css.css">
+    <script src="TT1.js"></script>
+  </head>
+  <body>
+     <form class="backg-round">
+        <h2><center>lnsert data</center></h2> 
+      <label for="name">ชื่อ</label>
+      <input type="text" id="name" name="name" required style="margin-left: 18px;"><br>
+      <br>
+      <label for="surname">นามสกุล</label>
+      <input type="text" id="surname" name="surname" required style="margin-left: 18px;"><br>
+      <br>
+      <label>เพศ</label>
+        <select id="gender">
+        <option value="a">ไม่ระบุ</option> 
+        <option value="b">ชาย</option>
+        <option value="c">หญิง</option> 
+        </select>
+      <br> 
+      <label for="dob">วันเกิด</label>
+      <br>
+      <input type="date" id="dob" name="dob" required><br>
+      <br>
+      <br><br>
+      <input type="button" value="Add" onclick="submitForm()">
+    </form>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Gender</th>
+          <th>Birth date</th>
+        </tr>
+    <div id="result"></div>
+  </body>
+</html>
